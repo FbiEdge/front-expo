@@ -7,7 +7,7 @@ let personagem = {
     classe: 'Cavaleiro',
     vigor: 14,
     conhecimento: 10,
-    fortitude: 11,
+    fortitude: 10,
     forca: 16,
     destreza: 12,
     inteligencia: 9,
@@ -36,7 +36,7 @@ document.getElementById('btn-get').addEventListener('click', function() {
 });
 
 document.getElementById('btn-put').addEventListener('click', function() {
-    const novoNome = document.getElementById('novo-nome').value; // Pega o valor do input
+    const novoNome = document.getElementById('novo-nome').value; 
 
     if (novoNome !== '') {
         personagem.nome_personagem = novoNome;
